@@ -1,0 +1,1 @@
+""" Use this skeleton for your custom FeinCMS Apps. """

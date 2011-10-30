@@ -1,0 +1,5 @@
+recursive-include feincms_baseapp/templates *.html
+recursive-include feincms_baseapp/static *
+recursive-include feincms_baseapp/media *
+include AUTHORS
+include LICENSE
