@@ -28,9 +28,9 @@ else:
 
 print 'Renaming project folder to definitive name %(module_name)s'
 shell('''git mv %s/static/content/%s %s/static/content/%s''' % \
-      (DEFAULT_APP_NAME, DEFAULT_APP_NAME, app_name, app_name))
+      (DEFAULT_APP_NAME, DEFAULT_APP_NAME, DEFAULT_APP_NAME, app_name))
 shell('''git mv %s/templates/content/%s %s/templates/content/%s''' % \
-      (DEFAULT_APP_NAME, DEFAULT_APP_NAME, app_name, app_name))
+      (DEFAULT_APP_NAME, DEFAULT_APP_NAME, DEFAULT_APP_NAME, app_name))
 
 shell('''git mv %s %s''' % (DEFAULT_APP_NAME, app_name))
 
